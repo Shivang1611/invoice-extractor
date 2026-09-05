@@ -173,7 +173,7 @@ Models frequently report `"high"` confidence even when they make basic arithmeti
 
 ---
 
-## 📊 Accuracy Results Against the 4 Sample Files
+##  Accuracy Results Against the 4 Sample Files
 
 The pipeline was benchmarked against the 4 inconsistent sample files using `pnpm --filter api test:extraction`:
 
