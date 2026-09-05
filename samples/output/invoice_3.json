@@ -1,0 +1,38 @@
+{
+  "vendor_name": "Meridian Electrical Wholesale Ltd.",
+  "invoice_number": "MEW-2024-0199",
+  "invoice_date": "2024-02-08",
+  "line_items": [
+    {
+      "description": "MCB 20A Single Pole (Unit)",
+      "qty": 50,
+      "unit_price": 4.2,
+      "total": 210
+    },
+    {
+      "description": "2.5mm² Twin & Earth Cable (per metre)",
+      "qty": 200,
+      "unit_price": 1.15,
+      "total": 230
+    },
+    {
+      "description": "Consumer Unit 18-Way Main Switch (Unit)",
+      "qty": 5,
+      "unit_price": 89.5,
+      "total": 447.5
+    },
+    {
+      "description": "IP65 Junction Box 100×100mm (Unit)",
+      "qty": 30,
+      "unit_price": 3.8,
+      "total": 114
+    },
+    {
+      "description": "Cable Trunking 50×50mm 3m Length (Each)",
+      "qty": 40,
+      "unit_price": 8.6,
+      "total": 344
+    }
+  ],
+  "grand_total": 1345.5
+}

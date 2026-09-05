@@ -1,0 +1,19 @@
+{
+  "name": "invoice-extractor",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev:api": "pnpm --filter api dev",
+    "dev:web": "pnpm --filter web dev",
+    "build": "pnpm --filter shared build && pnpm --filter api build && pnpm --filter web build",
+    "test": "pnpm -r test",
+    "lint": "ESLINT_USE_FLAT_CONFIG=false pnpm -r --workspace-concurrency=1 lint"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}

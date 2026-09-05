@@ -1,0 +1,56 @@
+{
+  "vendor_name": "Cascade Industrial Hardware Ltd.",
+  "invoice_number": "CIH-2024-0088",
+  "invoice_date": "2024-04-22",
+  "line_items": [
+    {
+      "description": "M8 Hex Head Bolt – Stainless Steel A4 (Box/100)",
+      "qty": 20,
+      "unit_price": 8.4,
+      "total": 168
+    },
+    {
+      "description": "M8 Nyloc Nut – Stainless Steel A4 (Box/100)",
+      "qty": 20,
+      "unit_price": 4.75,
+      "total": 95
+    },
+    {
+      "description": "M8 Flat Washer – Grade 316 (Box/200)",
+      "qty": 15,
+      "unit_price": 3.2,
+      "total": 48
+    },
+    {
+      "description": "M12 Threaded Rod 1000mm – HDG (Each)",
+      "qty": 50,
+      "unit_price": 6.8,
+      "total": 340
+    },
+    {
+      "description": "Cold Rolled Steel Channel 12mm (per metre)",
+      "qty": 120,
+      "unit_price": 2.95,
+      "total": 354
+    },
+    {
+      "description": "Steel Angle 50×50×5mm (per metre)",
+      "qty": 80,
+      "unit_price": 3.6,
+      "total": 288
+    },
+    {
+      "description": "Heavy Duty Clasp – Zinc Plated (Each)",
+      "qty": 200,
+      "unit_price": 1.15,
+      "total": 230
+    },
+    {
+      "description": "Freight & Delivery – UK to Oslo (DDP, Incoterms)",
+      "qty": 1,
+      "unit_price": 385,
+      "total": 385
+    }
+  ],
+  "grand_total": 2289.6
+}

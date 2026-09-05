@@ -1,0 +1,44 @@
+{
+  "vendor_name": "Pinnacle Office Supplies Inc.",
+  "invoice_number": "INV-2024-0047",
+  "invoice_date": "2024-01-15",
+  "line_items": [
+    {
+      "description": "Premium Ballpoint Pens (Box of 50)",
+      "qty": 10,
+      "unit_price": 18.5,
+      "total": 185
+    },
+    {
+      "description": "A4 Copy Paper – 80gsm (Ream of 500)",
+      "qty": 25,
+      "unit_price": 6.75,
+      "total": 168.75
+    },
+    {
+      "description": "Legal Pads – Yellow Ruled, 8.5\"×11\" (Pack of 12)",
+      "qty": 8,
+      "unit_price": 14,
+      "total": 112
+    },
+    {
+      "description": "Stapler – Heavy Duty, 210-Sheet Capacity",
+      "qty": 3,
+      "unit_price": 42,
+      "total": 126
+    },
+    {
+      "description": "File Folders – Hanging, Letter Size (Box of 25)",
+      "qty": 6,
+      "unit_price": 11.25,
+      "total": 67.5
+    },
+    {
+      "description": "Whiteboard Markers – Assorted Colors (Set of 8)",
+      "qty": 12,
+      "unit_price": 7.99,
+      "total": 95.88
+    }
+  ],
+  "grand_total": 819.32
+}

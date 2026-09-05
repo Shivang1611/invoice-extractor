@@ -1,0 +1,32 @@
+{
+  "vendor_name": "Hartwell & Associates Consulting Group",
+  "invoice_number": "HWA-2024-0312",
+  "invoice_date": "2024-03-15",
+  "line_items": [
+    {
+      "description": "Executive Strategy Workshop",
+      "qty": 16,
+      "unit_price": 450,
+      "total": 7200
+    },
+    {
+      "description": "Regulatory Compliance Review & Gap Analysis",
+      "qty": 24,
+      "unit_price": 320,
+      "total": 7680
+    },
+    {
+      "description": "Monthly Retainer — Advisory Services (March 2024)",
+      "qty": 1,
+      "unit_price": 3500,
+      "total": 3500
+    },
+    {
+      "description": "Travel & Out-of-Pocket Expenses",
+      "qty": 1,
+      "unit_price": 1248.5,
+      "total": 1248.5
+    }
+  ],
+  "grand_total": 18660
+}

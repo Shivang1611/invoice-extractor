@@ -1,0 +1,19 @@
+{
+  "name": "generate-samples",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "tsx generate-all.ts"
+  },
+  "dependencies": {
+    "pdfkit": "^0.15.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2",
+    "@types/pdfkit": "^0.13.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}

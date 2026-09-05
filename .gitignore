@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables (do not commit secrets)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Uploaded files
+apps/api/uploads/*
+!apps/api/uploads/.gitkeep
+
+# System & OS
+.DS_Store
+Thumbs.db
+
+# Logs & coverage
+*.log
+coverage/
+.vite/
