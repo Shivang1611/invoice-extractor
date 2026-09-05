@@ -4,7 +4,7 @@ A production-quality full-stack take-home application built with **TypeScript**,
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 The system is organized as a **pnpm monorepo** with shared validation contracts across frontend and backend:
 
@@ -57,7 +57,7 @@ flowchart TD
 
 ---
 
-## 🚀 Setup & Quickstart
+## Setup & Quickstart
 
 ### Prerequisites
 - **Node.js**: `v20.0.0` or higher (tested on Node `v24`)
@@ -129,7 +129,7 @@ pnpm -r build
 
 ---
 
-## 🛡️ Handling LLM Unreliability (Design Judgment)
+## Handling LLM Unreliability (Design Judgment)
 
 Large Language Models are probabilistic and prone to hallucination, schema drift, arithmetic slips, and overconfidence. In this system, **raw LLM output is never trusted directly**. Unreliability is defended against across five distinct layers:
 
@@ -191,7 +191,7 @@ The pipeline was benchmarked against the 4 inconsistent sample files using `pnpm
 
 ---
 
-## 📝 What Was Explicitly Skipped and Why
+## What Was Explicitly Skipped and Why
 
 Per Rule 4 of the build specification, all out-of-scope features were explicitly omitted and documented in [`NOTES.md`](file:///Users/caderaedu/Desktop/test/invoice-extractor/NOTES.md):
 
@@ -210,7 +210,7 @@ Per Rule 4 of the build specification, all out-of-scope features were explicitly
 
 ---
 
-## 🔮 What I'd Do Differently With More Time
+##  What I'd Do Differently With More Time
 
 1. **Asynchronous Job Queue (BullMQ + Redis)**:
    - Move document extraction off the synchronous Express request-response loop into background workers. This prevents HTTP request timeouts on large 50-page invoices.
